@@ -310,4 +310,5 @@ li a:hover::after{
     background-image: url('shopping.jpg');
     background-position: center;
     background-size: cover;   
+    color: #3eee;
 }
