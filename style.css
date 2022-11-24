@@ -143,7 +143,7 @@ li a:hover::after{
 }
 
 #hero h1{
-    color: rgb(236, 232, 165)
+    color: rgb(236, 232, 165);
 }
 
 #hero button{
