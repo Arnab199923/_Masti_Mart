@@ -124,6 +124,9 @@ li a:hover::after{
     align-items: center;
 }
 
+#close{
+    display: none;
+}
 #hero{
     background: url("girl.jpg");
     background-size: cover;
@@ -139,6 +142,8 @@ li a:hover::after{
 }
 
 #hero h4{
+    color: lightyellow;
+    text-shadow: 3px 3px 13px darkred;
     padding-bottom:15px;
 }
 
@@ -207,7 +212,7 @@ li a:hover::after{
 #product1 .pro{
     background:linear-gradient(to right,rgb(223, 208, 216) 20%,  rgb(255, 195, 179) 80% );
     width: 11%;
-    min-width: 250px;
+    min-width: 258px;
     padding: 10px 12px;
     border: 1px solid rgba(253, 250, 153, 1);
     border-radius: 25px;
@@ -514,6 +519,7 @@ footer .copyright{
 }
 
 /* responsive media query */
+/* for mid screen devices */
 
 @media (max-width:799px) {
     #navbar {
@@ -548,6 +554,7 @@ footer .copyright{
         padding-left: 20px;
     }
     #close{
+        display: initial;
         position: absolute;
         top:30px;
         left: 30px;
@@ -557,4 +564,87 @@ footer .copyright{
     #close .active{
         right:0px;
     }
+    #exit{
+        display: none;
+    }
+    #hero {
+        
+        height: 70vh;
+        padding: 0 80px;
+        background-position: 20% 30%;
+    }
+    #hero h2{
+        color: #fff;
+    }
+    #features {
+        justify-content: center;
+    }
+    #features .fBox {
+        margin: 15px 10px;
+    }
+    #product1 .pro-container {
+        justify-content: center;
+    }
+    #product1 .pro {
+        margin: 15px;
+    }
+    #banner {
+        height: 20vh;
+    }
+    #sm-banner .banner-box {
+        min-width: 100%;
+        height: 30vh;
+    }
+    #banner3 {
+        padding: 0 40px;
+    }
+    #banner3 .banner-box {
+        width: 28%;
+    }
+    #newsletter .form {
+        width: 100%;
+    }
+}
+
+/* for small screen devices */
+
+@media (max-width:477px) {
+    #header {
+        padding: 0 40px;
+    }
+    #hero {
+        padding: 0 20px;
+        background-position: 55%;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    .section-p1 {
+        padding: 20px;
+    }
+    #product1 .pro {
+       width: 100%;
+    }
+    #banner {
+        height: 40vh;
+    }
+    #sm-banner  #offer {
+        margin-top: 20px;
+    }
+    #banner3 {
+        padding: 0 15px;
+    }
+    #banner3 .banner-box {
+        width: 100%;
+    }
+    #newsletter input {
+        width: 70%; 
+    }
+    footer .copyright{
+        text-align: start;
+    }
+    
 }
