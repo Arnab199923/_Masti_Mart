@@ -139,7 +139,6 @@ li a:hover::after{
     align-items: flex-start;
     justify-content: center;
 }
-
 #hero h4{
     color: lightyellow;
     text-shadow: 3px 3px 13px darkred;
