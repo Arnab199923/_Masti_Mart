@@ -59,7 +59,7 @@ button.white{
     font-weight: 600;
     padding: 11px 18px;
     background: transparent;
-    color:#000;
+    color:red;
     border: 5px solid black;
     outline: none;
     transition: 300ms ease;
@@ -460,14 +460,13 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
-
+} 
 footer .col{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 20px;
-}
+} 
 
 footer img{
     margin-bottom: 30px;
