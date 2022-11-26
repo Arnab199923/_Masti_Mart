@@ -222,7 +222,7 @@ li a:hover::after{
 }
 
 #product1 .pro:hover{
-    transform: scale(1.1);
+    transform: scale(1.02);
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.459);
 }
 
